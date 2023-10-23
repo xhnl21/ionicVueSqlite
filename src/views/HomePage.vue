@@ -19,7 +19,7 @@
 
       <ion-list>
         <ion-item v-for="item in items">
-          demo
+          {{ item.id }} - {{ item.name }}
         </ion-item>
         <!-- <MessageListItem v-for="message in messages" :key="message.id" :message="message" /> -->
       </ion-list>

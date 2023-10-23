@@ -76,9 +76,9 @@ window.addEventListener('DOMContentLoaded', async () => {
     //   [Date.now(),'FURION ' +Date.now()]
     // );
 
-    const select = await db.query(
-      `SELECT * FROM test`
-    );
+    // const select = await db.query(
+    //   `SELECT * FROM test`
+    // );
     // console.log(`res: ${JSON.stringify(select)}`);
 
     await sqlite.closeConnection("db_vite", false);
